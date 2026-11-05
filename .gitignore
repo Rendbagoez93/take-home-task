@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environment (uv)
+.venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Runtime data: SQLite app DB, Celery broker/result DBs, uploaded files (PLAN §4)
+data/
+
+# Secrets: keep only the example file
+.env
+.env.*
+!.env.example
+
+# Claude Code per-user settings (project skills in .claude/skills/ stay tracked)
+.claude/settings.local.json
